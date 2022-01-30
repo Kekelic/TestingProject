@@ -8,6 +8,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.util.concurrent.TimeUnit;
+
 public class NextDayMatchTest {
     public WebDriver driver;
 
@@ -16,6 +18,7 @@ public class NextDayMatchTest {
         System.setProperty("webdriver.chrome.driver", Utils.CHROME_DRIVER_LOCATION);
         driver = new ChromeDriver();
         driver.get(Utils.BASE_URL);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 
     @Test
