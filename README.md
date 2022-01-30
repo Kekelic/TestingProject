@@ -5,7 +5,7 @@ Testiranje je napravio Stjepan Kekelić u svrhu projekta za kolegij Metode i teh
 Testiranje je napravljeno u razvojnom okruženju [IntelliJ IDEA](https://www.jetbrains.com/idea/download/#section=windows) 
 kojeg je potrebno skinuti ako se žele izvršiti napravljeni testovi.
 
-###Upute za potrebne alate:
+### Upute za potrebne alate:
 
 * potrebno je skinuti [JAVA JDK](https://www.oracle.com/java/technologies/downloads/) i instalirati ako to već nije napravljeno
   1. otvoriti cmd
@@ -23,7 +23,7 @@ kojeg je potrebno skinuti ako se žele izvršiti napravljeni testovi.
   8. kopirati putanju do chromedriver.exe i dodati je kao novu varijablu okoline
   (*"Advance system setting" -> "Environment Variables" -> odabrati "Path" -> "Edit" -> "New" -> zalijepiti kopiranu putanju*)
 
-###Testiranje unutar IntelliJ razvojnog okruženja
+### Testiranje unutar IntelliJ razvojnog okruženja
 
 Za Testiranje je napravljen novi Maven projekt.
 
